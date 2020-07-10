@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  font-family: "Bungee Inline";
+  font-size: 40px;
+}
+#h1Container {
+  height: 400px;
+  background-color: gainsboro;
+  box-shadow: 10px 10px 30px grey;
+  padding: 50px;
+  margin: 30px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+#BTN {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#BTN:hover {
+  background-color: black;
+}
+label {
+  font-family: "Cagliostro";
+  font-size: 22px;
+}
