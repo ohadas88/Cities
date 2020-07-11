@@ -7,7 +7,7 @@ formBtn.on("click", function () {
   //   cardsContainer.append
   _createCard(cityInput.val(), imgInput.val()).appendTo($("#DrawCards"));
 
-  $("#likeBtn").on("click", function () {
+  $("#likeBtn").on("click", function (e) {
     setTimeout(() => {
       const currentNumberOfLikes = Number($("#likesNum").text());
       const newNumberOfLikes = currentNumberOfLikes + 1;
@@ -23,12 +23,3 @@ formBtn.on("click", function () {
     return card;
   }
 });
-{
-  /* <div class="card">
-  <img src="img_avatar.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>John Doe</b></h4>
-    <p>Architect & Engineer</p>
-  </div>
-</div> */
-}
